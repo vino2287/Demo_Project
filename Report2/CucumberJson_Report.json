@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User want to login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 58214638100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246329300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"vinovicky\" valid username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_valid_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168469300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"GMN630\" valid password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GMN630",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_valid_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1029825600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "Stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 355100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User want to login the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-want-to-login-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 156900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 661549700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142542900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"vinovicky\" valid username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_valid_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120355200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter the \"GMN630\" valid password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GMN630",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_valid_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1217757200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "Stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking functionality",
+    "description": "",
+    "id": "hotel-booking-functionality",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
